@@ -18,6 +18,25 @@ foreach ($persona as $valor){
 
 
 
+$auto = [ 
+
+              "marca" => "Ford",
+              "modelo" => "Focus",
+              "año" => 2017
+
+
+
+];
+
+foreach ($auto as $posicion => $valor){
+  echo "$posicion: $valor  <?>";
+
+}
+
+
+
+
+
 
 
 ?>
